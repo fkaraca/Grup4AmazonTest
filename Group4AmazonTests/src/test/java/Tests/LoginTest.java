@@ -7,4 +7,8 @@ public class LoginTest {
     public void login(){
 
     }
+    @Test
+    public void karakaya(){
+        System.out.println("karakaya degisiklik");
+    }
 }
