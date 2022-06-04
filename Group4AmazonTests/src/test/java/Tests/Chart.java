@@ -4,6 +4,7 @@ import Utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class Chart extends TestBase {
 @Test
@@ -14,5 +15,11 @@ public class Chart extends TestBase {
 
         String title= driver.getTitle();
         System.out.println(title);
+    SoftAssert softAssert=new SoftAssert();
+
+    softAssert.assertTrue(title.contains("Amazon.com.tr Alışveriş Sepeti"));
+
+
+
     }
 }
