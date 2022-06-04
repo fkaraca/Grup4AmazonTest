@@ -16,6 +16,7 @@ public class Chart extends TestBase {
         String title= driver.getTitle();
         System.out.println(title);
     SoftAssert softAssert=new SoftAssert();
+    System.out.println("yeni ekleme");
 
     softAssert.assertTrue(title.contains("Amazon.com.tr Alışveriş Sepeti"));
 
