@@ -9,4 +9,12 @@ public class LoginTest {
         System.out.println("Deneme123");
 
     }
+
+    @Test
+    public void test1(){
+
+        System.out.println("Merhabalar");
+
+    }
+
 }
