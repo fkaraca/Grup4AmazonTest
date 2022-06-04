@@ -19,6 +19,7 @@ public class Chart extends TestBase {
 
     softAssert.assertTrue(title.contains("Amazon.com.tr Alışveriş Sepeti"));
     System.out.println("Chart branch");
+    System.out.println("2. deneme" );
 
 
     }
