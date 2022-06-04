@@ -1,9 +1,18 @@
 package Tests;
 
-public class Chart {
+import Utilities.TestBase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
+public class Chart extends TestBase {
+@Test
     public void chart(){
-        System.out.println("Chart testi");
+        driver.get("https://amazon.com.tr");
+        WebElement chartButton= driver.findElement(By.id("nav-cart-count-container"));
+        chartButton.click();
 
+        String title= driver.getTitle();
+        System.out.println(title);
     }
 }
