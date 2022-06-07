@@ -33,6 +33,7 @@ public class Chart extends TestBase {
 
          WebElement ChartProducts= driver.findElement(By.xpath("//span[@id='nav-cart-count']"));
     System.out.println("Sepetinizde "+ChartProducts.getText()+" adet urun bulunmaktadir");
+    System.out.println("Yeni teste gecelim");
 
 
     }
