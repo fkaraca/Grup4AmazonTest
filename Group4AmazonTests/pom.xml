@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>infoTechTestNG2</artifactId>
+    <artifactId>Group4AmazonTests</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
