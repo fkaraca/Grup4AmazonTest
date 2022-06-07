@@ -19,9 +19,15 @@ public class Orders extends TestBase {
 
 }
 
+
     @Test
-    public void test1(){
+    public void test2(){
+
+        System.out.println("ucuncu bahar");
+    }
+    @Test
+    public void test3(){
 
         System.out.println("ikinci bahar");
-}
+    }
 }
