@@ -18,6 +18,8 @@ public class SearchBox extends TestBase {
         searchBox.submit();
         WebElement mouseResult=driver.findElement(By.xpath("(//div[@class='a-section a-spacing-small a-spacing-top-small'])[1]"));
         System.out.println("mouseResult = " + mouseResult.getText());
+        System.out.println("son ver.");
+        System.out.println("son ver.");
 
     }
 }
