@@ -18,4 +18,16 @@ public class Orders extends TestBase {
         System.out.println("Merhabalar");
 
 }
+
+
+    @Test
+    public void test2(){
+
+        System.out.println("ucuncu bahar");
+    }
+    @Test
+    public void test3(){
+
+        System.out.println("ikinci bahar");
+    }
 }
